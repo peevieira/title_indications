@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.pedro.indicados.controller.dto.ConsultDto;
 import br.com.pedro.indicados.controller.dto.ConsultMaxMinDto;
 import br.com.pedro.indicados.service.ConsultService;
 

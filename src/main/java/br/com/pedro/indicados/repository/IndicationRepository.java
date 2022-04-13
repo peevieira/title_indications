@@ -3,9 +3,6 @@ package br.com.pedro.indicados.repository;
 import java.util.List;
 import java.util.Optional;
 
-import javax.persistence.ColumnResult;
-import javax.persistence.SqlResultSetMapping;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

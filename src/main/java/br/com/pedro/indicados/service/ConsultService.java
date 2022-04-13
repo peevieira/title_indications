@@ -1,7 +1,6 @@
 package br.com.pedro.indicados.service;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
@@ -47,7 +46,7 @@ public class ConsultService {
 	private Integer getMinInterval(List<ProducerIndicationCalc> producerIndicationCalc ) {
 		Integer min = Integer.MAX_VALUE;
 		
-		for (Iterator iterator = producerIndicationCalc.iterator(); iterator.hasNext();) {
+		for (Iterator<ProducerIndicationCalc> iterator = producerIndicationCalc.iterator(); iterator.hasNext();) {
 			ProducerIndicationCalc producerIndicationCalc2 = (ProducerIndicationCalc) iterator.next();
 			
 			if (min > producerIndicationCalc2.getMinInterval()) {
@@ -62,7 +61,7 @@ public class ConsultService {
 	private Integer getMaxInterval(List<ProducerIndicationCalc> producerIndicationCalc ) {
 		Integer max = Integer.MIN_VALUE;
 		
-		for (Iterator iterator = producerIndicationCalc.iterator(); iterator.hasNext();) {
+		for (Iterator<ProducerIndicationCalc> iterator = producerIndicationCalc.iterator(); iterator.hasNext();) {
 			ProducerIndicationCalc producerIndicationCalc2 = (ProducerIndicationCalc) iterator.next();
 			
 			if (max < producerIndicationCalc2.getMaxInterval()) {
