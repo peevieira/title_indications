@@ -8,12 +8,13 @@ Aplicação REST API para indicações de piores filmes.
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [H2 Database Engine](https://www.h2database.com/html/main.html)
 * [SpringFox](https://springfox.github.io/springfox/)
+* [Apache Maven](https://maven.apache.org/)
 
 ### Instalação
 
 1. Clonar o repositório
    ```sh
-   git clone https://github.com/peevieira/feira-api.git
+   git clone https://github.com/peevieira/title_indications.git
    ```
 ## Uso
 
