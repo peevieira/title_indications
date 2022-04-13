@@ -6,6 +6,8 @@ Aplicação REST API para indicações de piores filmes.
 
 * [Java versão 11](https://www.java.com/pt-BR/)
 * [Spring Boot](https://spring.io/projects/spring-boot)
+* * validation
+* * security
 * [H2 Database Engine](https://www.h2database.com/html/main.html)
 * [SpringFox](https://springfox.github.io/springfox/)
 * [Apache Maven](https://maven.apache.org/)
@@ -110,4 +112,4 @@ Aplicação REST API para indicações de piores filmes.
 ```
 # Documentação
 
-[Documentação](http://localhost:8181/docs/index.html) {http://localhost:8181/docs/index.html}
+[Documentação](http://localhost:8182/swagger-ui.html) {http://localhost:8182/swagger-ui.html}
